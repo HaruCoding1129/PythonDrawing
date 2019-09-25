@@ -37,7 +37,7 @@ def black_3():
     
 # 키 등록 : ﻿onkey(fun, key)﻿
 # fun 에는 위에서 만든 함수이름을 써주면 됩니다.
-# key 에는 방향키를 입력하면 됩니다.
+# key 에는 설정하고 싶은 키를 입력하면 됩니다.
 
 t.onkey(up, "Up")
 t.onkey(down, "Down")
