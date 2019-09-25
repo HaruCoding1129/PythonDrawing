@@ -48,7 +48,7 @@ t.onkey(red_2, "2")
 t.onkey(black_3, "3")
 
 # onkey로 등록된 키를 누르면 listen()에게 값이 전달이 됩니다.
-# listen()은 onkey로 부터 전달되는 값을 받고 반응하게 해줍니다.
 # listen()을 생략하면 키보드를 아무리 눌려도 어떤 반응도 나타나지 않습니다.
+# 한번 생략 해 보세요!
 
 t.listen()
