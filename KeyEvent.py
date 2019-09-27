@@ -46,10 +46,10 @@ def star_6():
 
     
 # ========== 펜 Up & Down ==========
-def square_q():
+def penup_q():
   t.penup()
 
-def circle_w():
+def pendown_w():
   t.down()
 
 
@@ -72,8 +72,8 @@ t.onkey(circle_5, "5")
 t.onkey(star_6, "6")
 
 #펜 Up & Down
-t.onkey(square_4, "q")
-t.onkey(circle_5, "w")
+t.onkey(penup_q, "q")
+t.onkey(pendown_w, "w")
 
 
 # ========== listen() 잊지 마세요! ==========
