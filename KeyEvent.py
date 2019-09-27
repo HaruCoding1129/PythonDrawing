@@ -50,7 +50,7 @@ def penup_q():
   t.penup()
 
 def pendown_w():
-  t.down()
+  t.pendown()
 
 
 # ========== 키 등록 ==========
