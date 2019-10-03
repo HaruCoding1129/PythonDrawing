@@ -26,8 +26,8 @@ for i in range(30):
   t.penup()
   t.goto(ran_x, ran_y)
   t.pendown()
+  
   for i in range(0,5):
-    
     t.forward(ran_forward)
     t.right(144)
   t.end_fill()
